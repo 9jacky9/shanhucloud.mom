@@ -42,7 +42,7 @@ body {
 }
 .primary-btn {
     background: var(--ink-black);
-    color: var(--paper);
+    color: var(--paper) !important;
     border: 1px solid var(--ink-black);
 }
 .primary-btn:hover { background: var(--accent); border-color: var(--accent); }
@@ -240,4 +240,5 @@ a:hover { filter: brightness(1.2); }
         width: auto !important;
     }
 }
+
 
