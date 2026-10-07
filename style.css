@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --ink-black: #1a1a1a;
     --ink-gray: #4a4a4a;
     --ink-light: #f4f4f0;
@@ -210,7 +210,7 @@ body {
 
 /* Global Link Override to prevent default browser blue/purple */
 a { color: #8b0000; text-decoration: none; }
-a:visited { color: inherit; }
+
 a:hover { filter: brightness(1.2); }
 
 
@@ -240,3 +240,4 @@ a:hover { filter: brightness(1.2); }
         width: auto !important;
     }
 }
+
